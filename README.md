@@ -1,1 +1,0 @@
-# fe-rsu-kirill_stepin
