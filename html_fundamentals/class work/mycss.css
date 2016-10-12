@@ -12,10 +12,14 @@ table{
 }
 
 .td{
-	width: 40%; 
+	width: 80%; 
 	height: 70px;
 }
 
 .frame{
 	width: 100%; 
+}
+
+.gray{
+	background-color: gray;
 }
