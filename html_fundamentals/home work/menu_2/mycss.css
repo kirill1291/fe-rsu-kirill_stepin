@@ -1,7 +1,17 @@
+a{
+	color:white;
+	text-decoration:none;
+}
+
+table{
+	width: 100%;
+}
+
 .td{
-	width: 50%;
+	width: 20%;
 }
 
 .frame{
-	width: 100%;
+	width:80%;
+	height:550px;
 }
