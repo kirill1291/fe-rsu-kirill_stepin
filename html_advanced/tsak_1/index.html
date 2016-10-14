@@ -8,45 +8,48 @@
         <link rel="stylesheet" type="text/css" href="mycss.css" />
     </head>
     <body>
-	<div id="main">
-	<ul>
-		<li><a href="https://www.google.ru">google</a></li>
-    	<li><a href="https://www.yandex.ru/">Yandex</a></li>
-    	<li><a href="https://market.yandex.ru/?clid=505">Yandex market</a></li>
-		<li><a href="https://translate.yandex.ru/">Yandex tramslate</a></li>
-		<li><a href="https://news.yandex.ru/">Yandex news</a></li>
-		<li><a href="https://yandex.ru/pogoda/ryazan">Yandex pogoda </a></li>
-  	</ul>
-       <ol start="7">
-		<li>создание </li>
-    		<li>излечение </li>
-    		<li>восприятия</li>
-		<li>восприятия</li>
-		<li>восприятия</li>
-		<li>восприятия</li>
-		<li>SubList
-                	<ul>
-                        	<li>SubSubList</li>
-                                <li>SubSubList</li>
-				<li>SubSubList</li>
-				<li>SubSubList</li>
-                	</ul>
-		</li>
-  	</ol>
-	<dl>
-                <dt><i>Tag</i></dt>
-                    <dd>Element of Hipertext Markup Language</dd>
-                <dt><i>The Semantic Web</i></dt>
-                    <dd>The direction of development of the World Wide Web,</dd>
-            </dl>
+	<h1>Task 1</h1>
+	<table>
+	<tr>
+	<td>
+		<ul>
+			<li><a href="https://www.google.ru">google</a></li>
+	    	<li><a href="https://www.yandex.ru/">Yandex</a></li>
+	    	<li><a href="https://market.yandex.ru/?clid=505">Yandex market</a></li>
+			<li><a href="https://translate.yandex.ru/">Yandex tramslate</a></li>
+			<li><a href="https://news.yandex.ru/">Yandex news</a></li>
+			<li><a href="https://yandex.ru/pogoda/ryazan">Yandex pogoda </a></li>
+	  	</ul>
+	    <ol start="7">
+			<li>создание </li>
+	    	<li>излечение </li>
+	    	<li>восприятия</li>
+			<li>восприятия</li>
+			<li>восприятия</li>
+			<li>восприятия</li>
+			<li>SubList
+	    		<ul>
+					<li>SubSubList</li>
+	                <li>SubSubList</li>
+					<li>SubSubList</li>
+					<li>SubSubList</li>
+	           	</ul>
+			</li>
+	  	</ol>
+		<dl>
+	        <dt><i>Tag</i></dt>
+	            <dd>Element of Hipertext Markup Language</dd>
+	        <dt><i>The Semantic Web</i></dt>
+	            <dd>The direction of development of the World Wide Web,</dd>
+	    </dl>
 	  	<hr>
-		<table width="100%" border="1">
+		<table border="1">
    		<caption>CSS generated content for pseudo-elements</caption>
    		<tr>
     		<th>IE</th><th>Firefox</th><th>Chrome</th><th>Safari</th><th>Opera</th><th>iOS Safari</th><th>Opera Mini</th><th>Android Browser</th><th>Chrome for Android</th>
    		</tr>
 		<tr>
-    		<td rowspan="2">&nbsp</td><td rowspan="4">&nbsp</td><td>27</td><td rowspan="3">&nbsp</td><td rowspan="5">&nbsp</td><td rowspan="4">&nbsp</td><td rowspan="5">&nbsp</td><td>&nbsp</td><td rowspan="5">&nbsp</td>
+    		<td rowspan="2">&nbsp;</td><td rowspan="4">&nbsp;</td><td>27</td><td rowspan="3">&nbsp;</td><td rowspan="5">&nbsp;</td><td rowspan="4">&nbsp;</td><td rowspan="5">&nbsp;</td><td>&nbsp;</td><td rowspan="5">&nbsp;</td>
    		</tr>
 		<tr>
     		<td>31</td><td>2.3</td>
@@ -71,19 +74,18 @@
 		 <form action="http://httpbin.org/post" method="post">
 			<fieldset>
 			<legend>Personal data</legend>
-			<p>Surname: <input name="Surname"></p>
-			<p>First Name: <input name="First_name"></p>
-			<p>Middle name: <input name="Middle_name"></p>
-			<p>You are: <input name="sax" type="radio" value="male">male <input name="sax" type="radio" value="female">female</p>
-			<p>Age <input type="number" size="3" name="age" min="18" max="101" ></p>
-			<p>Country of Residence:
+			<label for="Surname">Surname:</label><input id="Surname" name="Surname"><br><br>
+			<label for="fname">First Name:</label><input id="fname" name="First_name"><br><br>
+			<label for="mname">Middle name:</label><input id="mname" name="Middle_name"><br>
+			<p>You are: <input name="sax" type="radio" value="male" checked>male <input name="sax" type="radio" value="female">female</p>
+			<label for="age">Age</label><input type="number" id="age" size="3" name="age" min="18" max="101" >
+			<p>Country of Residence:</p>
 			<select name="country">
-				<option value="Ukraine">Ukraine</option>
 				<option value="Russia">Russia</option>
+				<option value="Ukraine">Ukraine</option>
 				<option value="USA">USA</option>
 				<option value="France">France</option>
 				</select>
-			</p>
 			<p>City: <input name="city" type="radio" value="Ryazan">Ryazan <input name="city" type="radio" value="Moscow">Moscow</p>
 			<p>Photography: <input type="file" name="file"></p>
 			<hr>
@@ -104,13 +106,14 @@
 			</fieldset>
 			<fieldset>
 			<legend>Contact Information</legend>
-				<p>Site: <input type="url" name="site"></p>
-				<p>Email: <input type="email" name="Email"></p>
-				<p>Phone: <input type="tel" name="Phone"></p>
+				<label for="site">Site:</label><input id="site" type="url" name="site"><br><br>
+				<label for="email">Email:</label><input id="email" type="email" name="Email"><br><br>
+				<label for="phone">Phone:</label><input id="phone" type="tel" name="Phone"><br>
 			</fieldset>
-				<p>Password: <input type="password" name="Password"></p>
+				<br><label for="password">Password:</label><input id="password" type="password" name="Password" required>
 				<p><input type="submit" name="submit"><input type="reset" name="submit"></p>
 			</form>
-	</div>
+	</td>		
+	</table>
     </body>
 </html>
