@@ -1,0 +1,26 @@
+#ddgg{
+	width:335px;
+}
+
+.first{
+	background-color:#569099;
+	font-size:32px;
+	color:#fff;
+	margin-bottom: 22px;
+}
+
+.first p{
+	margin: 0;
+	padding:10px 7px 10px 10px;
+	font-weight: 900;
+	font-stretch:semi-expanded;
+}
+
+.second{
+	background-color:#cad8d0;
+}
+
+.second p{
+	margin: 0px;
+	padding: 10px 35px 10px 10px;
+}

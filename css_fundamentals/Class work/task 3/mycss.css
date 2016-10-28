@@ -1,0 +1,16 @@
+.link:not(:last-child):after{
+	content:"|";
+	color:red;
+}
+
+.link{
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.link:hover{
+	text-decoration: underline;
+}
+
+.link:hover:after{
+	content:"";
