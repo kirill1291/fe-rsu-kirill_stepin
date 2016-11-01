@@ -1,0 +1,22 @@
+.arrow-box{
+	background-color:#88B7D5;
+	width:400px;
+	color:#fff;
+	padding: 10px 15px 10px 12px;
+	position: relative;
+	top:50px;
+	border: 4px #C2E1F5 solid;
+  font-size: 18.5px;
+}
+
+   .arrow-box::before, .arrow-box::after {
+    content: ''; 
+    position: absolute;
+    left: 40%; top: -80px;
+    border: 40px solid transparent;
+    border-bottom: 40px solid #C2E1F5;
+   }
+   .arrow-box::after {
+    border-bottom: 40px solid #88B7D5;
+    top: -74px; 
+   }

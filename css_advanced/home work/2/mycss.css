@@ -1,0 +1,118 @@
+.menu{
+	height: 35px;
+	width: 100%;
+	background-image: url(bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	min-width: 500px;
+}
+
+.menu__left{
+	width: 100%;
+	display: flex;
+}
+
+.menu__right{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu__left > div{
+	margin-right: 2px;
+}
+
+.menu__right > div{
+	margin-left: 2px;
+	padding: 9px;
+}
+
+.menu__item:not(.exit){
+	background-color: #387AB1;
+}
+
+.menu__item:hover{
+	background-color: #e03838;
+}
+
+.exit{
+	background-color: #2f2f35;
+	color:#fff;
+	padding: 8px !important;
+}
+
+.mail{
+	padding: 7px 0 0px 7px;
+	min-width: 55px;
+
+}
+
+.mail .count{
+	display: inline-block;
+	color: #fff;
+	background-color: red;
+	min-width: 13px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 4px;
+    font-size: 10px;
+    vertical-align: text-bottom;
+}
+
+.page{
+	padding: 7px 0 0 7px;
+	min-width: 55px;
+}
+
+.page .count{
+	display: inline-block;
+	color: #fff;
+	background-color: red;
+	min-width: 13px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 4px;
+    font-size: 10px;
+    vertical-align: super;
+}
+
+.exit{
+	min-width: 109px;
+}
+
+.exit a{
+	margin-left: 20px;
+}
+
+.exit img{
+	margin: 2px 8px 0 20px;
+    vertical-align: text-top;
+}
+
+.flag img{
+	margin: 10px;
+    vertical-align: text-top;
+}
+
+.user{
+	padding: 7px 0 0 7px;
+	min-width: 55px;
+}
+
+.user .count{
+	display: inline-block;
+	color: #fff;
+	background-color: red;
+	min-width: 13px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 4px;
+    font-size: 10px;
+    vertical-align: super;
+}
+
+.check img{
+	margin: 9px;
+    vertical-align: text-top;
+}

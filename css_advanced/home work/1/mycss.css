@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+}
+#top-menu{
+	margin-left: 50px;
+}
+
+input[type=checkbox]{
+	display: none;
+}
+
+label{
+	display: inline-block;
+	background-color: #35BAF6;
+	color: #fff;
+	width: 125px;
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+	font-size: 1.3em;
+	border: 2px #16AFF4 solid;
+	border-top-style: none;
+}
+
+label:hover{
+	box-shadow: 0 0 7px #16AFF4;
+}
+
+.menu{
+	border: 2px #16AFF4 solid;
+	border-top-style: none;
+    border-bottom-color: #7BB9F9;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+	display: none;
+	width: 125px;
+	background-color: #35BAF6;
+	padding: 0;
+	margin: 0;
+}
+
+input:checked ~ label:hover{
+		box-shadow: none;
+}
+
+input:checked ~ ul{
+    display: block;
+}
+
+.menu li{
+	color: #fff;
+	list-style-type:none;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+li:hover{
+	background-color: #03A9F4;	
+}
+

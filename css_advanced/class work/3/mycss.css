@@ -1,0 +1,29 @@
+.first{
+	width:800px;
+	height:250px;
+	background-color:#A68BDD;
+	color:#825BCF;
+	font-family:"arial";
+	padding:15px;
+	border-radius: 0 7px 7px 7px;
+	box-shadow: 0 0 7px rgba(0,0,0,0.8);
+}
+
+.caption{
+	background-color:#A68BDD;
+
+	font-family:"arial";
+	font-size:20px;
+	width:80px;
+	border-radius: 4px 4px 0 0;
+	text-align:center;
+	padding: 5px;
+	box-shadow: 0 0 7px rgba(0,0,0,0.8);
+	border: 1px #4F5AC2 solid;
+	border-bottom-style: none;
+	color:white;
+}
+
+.caption a{
+	color:#825BCF;
+}
