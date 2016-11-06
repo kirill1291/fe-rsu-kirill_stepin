@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Class work">
+        <meta name="keywords" content="HTML, JavaScript, CSS">
+        <title>css_layout</title>
+        <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/content/section/section.css"/>
+        <link rel="stylesheet" type="text/css" href="css/header/header.css"/>
+        <link rel="stylesheet" type="text/css" href="css/content/search-panel/search-panel.css"/>
+        <link rel="stylesheet" type="text/css" href="css/left-side/add-panel/add-panel.css"/>
+        <link rel="stylesheet" type="text/css" href="css/left-side/nav/nav.css"/>
+        <link rel="stylesheet" type="text/css" href="css/left-side/pcat/pcat.css"/>
+        <link rel="stylesheet" type="text/css" href="css/left-side/history-list/history-list.css"/>
+        <link rel="stylesheet" type="text/css" href="css/footer/footer.css"/>
+    </head>
+    <body class="container">
+    		<header class="header"> 
+    			<a class="header__item" href="#">help center</a>
+    			<a class="header__item" href="#">our support</a>
+    			<a class="header__item header__login" href="#"><span class="header__login__img"></span><span class="header__login__name">john doe</span></a>
+    		</header>
+    		<main class="main">
+        		<aside class="left-side">
+        			<div class="add-panel">
+        				<button class="add-panel__button"> add a book</button>
+        			</div>
+            		<nav class="nav">
+                		<span><a href="#" class="nav__item nav__link__book">now reading</a></span>
+                		<span><a href="#" class="nav__item nav__link__globe">browse</a></span>
+                		<span><a href="#" class="nav__item nav__link__shopping-cart">buy books</a></span>
+                		<span><a href="#" class="nav__item nav__link__star">favourite books</a></span>
+                		<span><a href="#" class="nav__item nav__link__th-list">wishlist</a></span>
+                		<span><a href="#" class="nav__item nav__link__clock-o">history</a></span>
+            		</nav>
+            		<nav class="pcat">
+                		<span><a href="#" class="nav__item pcat__link__pink">must read titles</a></span>
+                		<span><a href="#" class="nav__item pcat__link__orange">best of list</a></span>
+                		<span><a href="#" class="nav__item pcat__link__blue">classic novels</a></span>
+                		<span><a href="#" class="nav__item pcat__link__purple">non fiction</a></span>
+            		</nav>
+            		<div class="history-list">
+            			<div class="history__item">
+            				<div class="history__info">
+            					<p>You added <a class="history__marked">fight club</a> by <a class="history__marked">chuck palahniuk</a> to your <a class="history__marked">must read titles.</a></p>
+            					<p>24 minutes ago</p>
+            				</div>
+            			</div>
+            			<div class="history__item">
+            				<div class="history__info">
+            					<p>You added <a class="history__marked">the trial</a> by <a class="history__marked">franz fafka</a> to you <a class="history__marked">must read titles.</a></p>
+            					<p>48 minutes ago</p>
+            				</div>
+            			</div>
+            		</div>
+        		</aside>
+        		<div class="content">
+        			<div class="search-panel">
+        				<div class="search-panel__name"><a class="search-panel__name__a">browse available books</a></div>
+        				<div class="search-panel__bar">
+        					<div class="search-panel__bar__nav">
+        						<span class="search-panel_nav__item"><a href="#" class="search-panel__link">all books</a></span>
+		                		<span class="search-panel_nav__item"><a href="#" class="search-panel__link">most recent</a></span>
+		                		<span class="search-panel_nav__item"><a href="#" class="search-panel__link">most popular</a></span>
+		                		<span class="search-panel_nav__item"><a href="#" class="search-panel__link">free books</a></span>
+        					</div>
+        					<div class="search-panel__bar__search">
+        						<input class="bar__search__input" type="text" name="search" placeholder="enter keywords">
+        					</div>
+        				</div>
+        			</div>
+        			<section class="section">
+			            <article class="article">
+			                <div class="article__content image-1"></div>
+			                <h2 class="article__caption">Jewels of Nizam</h2>
+			                <p class="article__autor">by Geeta Devi</p>
+			                <p class="article__raiting"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+			            </article>
+			             <article class="article">
+			                <div class="article__content image-2"></div>
+			                <h2 class="article__caption">Cakes & Bakes</h2>
+			                <p class="article__autor">by Sanjeev Kapoor</p>
+			                <p class="article__raiting"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+			            </article>
+			              <article class="article">
+			                <div class="article__content image-3"></div>
+			                <h2 class="article__caption">Jamie’s Kitchen</h2>
+			                <p class="article__autor">by Jamie Oliver</p>
+			                <p class="article__raiting"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i></p>
+			            </article>
+			            <article class="article">
+			                <div class="article__content image-4"></div>
+			                <h2 class="article__caption">Inexpensive Family Meals</h2>
+			                <p class="article__autor">by Simon Holst</p>
+			                <p class="article__raiting"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p>
+			            </article>
+			            <article class="article">
+			                <div class="article__content image-5"></div>
+			                <h2 class="article__caption">Paleo Slow Cooking</h2>
+			                <p class="article__autor">by Chrissy Gower</p>
+			                <p class="article__raiting"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i></p>
+			            </article>
+			            <article class="article">
+			                <div class="article__content image-6"></div>
+			                <h2 class="article__caption">Cook Like an Italian</h2>
+			                <p class="article__autor">by Tobie Puttock</p>
+			                <p class="article__raiting"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p>
+			            </article>
+			            <article class="article">
+			                <div class="article__content image-7"></div>
+			                <h2 class="article__caption">Suneeta Vaswani</h2>
+			                <p class="article__autor">by Geeta Devi</p>
+			                <p class="article__raiting"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+			            </article>
+			            <article class="article">
+			                <div class="article__content image-8"></div>
+			                <h2 class="article__caption">Jamie Does</h2>
+			                <p class="article__autor">by Jamie Oliver</p>
+			                <p class="article__raiting"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p>
+			            </article>
+			            <article class="article">
+			                <div class="article__content image-9"></div>
+			                <h2 class="article__caption">Jamie’s italy</h2>
+			                <p class="article__autor">by Jamie Oliver</p>
+			                <p class="article__raiting"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+			            </article>
+			            <article class="article">
+			                <div class="article__content image-10"></div>
+			                <h2 class="article__caption">Vegetables Cookbook</h2>
+			                <p class="article__autor">by Matthew Biggs</p>
+			                <p class="article__raiting"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p>
+			            </article>
+        			</section>
+        		</div>
+       		</main>
+    		<footer class="footer">
+    			<a class="footer__item" href="#"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+    			<a class="footer__item" href="#"><i class="fa fa-cog" aria-hidden="true"></i></a>
+    		</footer>
+    </body>
+</html>

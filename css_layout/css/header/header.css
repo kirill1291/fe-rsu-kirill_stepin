@@ -1,0 +1,36 @@
+.header__item{
+	color: #69738c;
+	text-decoration: none;
+	width: 100px;
+	text-align: center;
+	padding-top: 14px;
+	text-transform: capitalize;
+}
+
+.header__login{
+	width: 157px;
+}
+
+.header__item:hover{
+	background-color: #15a4fa;
+	color: #fff;
+}
+
+.header__login__img{
+	background-image: url(image/ava.jpg);
+	background-size: contain;
+	border-radius: 50%;
+	padding: 5px 15px;
+	border: 2px #eef1f7 solid;
+	margin-right: 15px;
+}
+
+.header__login__name:after{
+	font-family: "FontAwesome";
+	content: "\f13a";
+	padding: 0 10px;
+}
+
+.login__item:hover{
+	color:#fff;
+}

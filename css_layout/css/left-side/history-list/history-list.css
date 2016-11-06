@@ -1,0 +1,29 @@
+.history-list{
+	background-color: #1f2637;
+	border-top: 1px #282f41 solid;
+	margin-top: 5px;
+	height: 100%;
+	color:#6f7d95;
+}
+
+.history__info{
+	padding: 0 10px;
+	font-family: "Proxima";
+	font-size: 12px;
+}
+
+.history__item{
+	display: flex;
+}
+
+.history__item:before{
+	color: #78829d;
+	font-family: "FontAwesome";
+	content: "\f017";
+	padding: 15px 0 0 15px;	
+}
+
+.history__marked{
+	color: #97b3ce;
+	text-transform: capitalize;
+}

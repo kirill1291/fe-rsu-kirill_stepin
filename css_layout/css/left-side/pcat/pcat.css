@@ -1,0 +1,56 @@
+.pcat{
+	background-color: #1f2637;
+	border-top: 1px #282f41 solid;
+	border-bottom: 1px #141824 solid;
+	margin-top: 5px;
+}
+
+.pcat__item{
+	color:#78829d;
+	padding: 12px;
+}
+
+.pcat__link{
+	color:#78829d;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: capitalize;
+	font-family: "Proxima";
+	font-size: 14px;
+}
+
+.pcat__link__pink:before{
+	font-family: "FontAwesome";
+	content: "\f111";
+	font-size: 8px;
+	color: #e64c66;
+	vertical-align: middle;
+	padding-right: 15px;
+}
+
+.pcat__link__orange:before{
+	font-family: "FontAwesome";
+	content: "\f111";
+	font-size: 8px;
+	color: #ffab00;
+	vertical-align: middle;
+	padding-right: 15px;
+}
+
+.pcat__link__blue:before{
+	font-family: "FontAwesome";
+	content: "\f111";
+	font-size: 8px;
+	color: #00bfdd;
+	vertical-align: middle;
+	padding-right: 15px;
+}
+
+.pcat__link__purple:before{
+	font-family: "FontAwesome";
+	content: "\f111";
+	font-size: 8px;
+	color: #7874cf;
+	vertical-align: middle;
+	padding-right: 15px;
+}

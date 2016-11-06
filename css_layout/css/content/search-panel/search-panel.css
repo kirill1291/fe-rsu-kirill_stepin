@@ -1,0 +1,84 @@
+/*.search-panel{
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+}*/
+
+.search-panel__name{
+	text-transform: capitalize;
+	height: 70px;
+	background-color: #eef1f7;
+	color: #444c63;
+	border-bottom: 1px #dadfea solid;
+	flex-shrink: 0;
+	font-family: "Proxima";
+}
+
+.search-panel__name__a{
+	font-size: 20px;
+	margin: 24px 23px;
+	display: inline-block;
+}
+
+.search-panel__bar{
+	height: 50px;
+	background-color: #eef1f7;
+	color: #444c63;
+	border-bottom: 1px #dadfea solid;
+	border-top: 1px #f4f6fa solid;
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+}
+
+.search-panel__bar__nav{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+	justify-content: flex-start;
+}
+
+.search-panel_nav__item{
+	margin: 13px 5px 0 0;
+}
+
+.search-panel__link{
+	text-transform: capitalize;
+	padding: 3px 15px;
+	border-radius: 20px;
+	color: #8c97b2;
+	text-decoration: none;
+	font-family: "Proxima";
+    font-size: 0.7em;
+    font-weight: 500;
+}
+
+.search-panel__link:hover{
+	color: #fff;
+	background-color: #97b3ce;
+}
+
+.search-panel_nav__item{
+	justify-content: flex-start;
+	list-style-type: none;
+}
+
+.search-panel__bar__search{
+	display: flex;
+	justify-content: flex-end;
+	width: 20%;
+	margin: 9px 20px 0 0;
+}
+
+.bar__search__input{
+	height: 26px;
+	width: 100%;
+	border-radius: 16px;
+	border: 1px #dadfea solid;
+	text-transform: capitalize;
+	color: #8c97b2;
+	padding-left: 20px;
+	font-family: "Proxima";
+	text-overflow: ellipsis;
+}

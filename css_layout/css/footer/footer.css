@@ -1,0 +1,12 @@
+.footer__item{
+	padding: 12px 20px;
+	background-color: #1f2637;
+}
+
+.footer__item:hover{
+	background-color: #15a4fa;
+}
+
+.footer__item i{
+	color:#fff;
+}

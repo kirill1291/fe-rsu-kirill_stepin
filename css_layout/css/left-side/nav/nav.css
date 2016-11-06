@@ -1,0 +1,57 @@
+.nav{
+	background-color: #1f2637;
+	border-top: 1px #282f41 solid;
+	border-bottom: 1px #141824 solid;
+	margin-top: 5px;
+}
+
+.nav__item{
+	color:#78829d;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-family: "Proxima";
+	font-size: 14px;
+	display: block;
+	padding: 10px 0 10px 20px;
+}
+
+.nav__item:hover{
+	background-color: #15a4fa;
+	color: #fff;
+}
+
+.nav__link__book:before{
+	font-family: "FontAwesome";
+	content: "\f02d";
+	padding-right: 10px;
+}
+
+.nav__link__globe:before{
+	font-family: "FontAwesome";
+	content: "\f0ac";
+	padding-right: 10px;	
+}
+
+.nav__link__shopping-cart:before{
+	font-family: "FontAwesome";
+	content: "\f07a";
+	padding-right: 10px;	
+}
+
+.nav__link__star:before{
+	font-family: "FontAwesome";
+	content: "\f005";
+	padding-right: 10px;	
+}
+
+.nav__link__th-list:before{
+	font-family: "FontAwesome";
+	content: "\f00b";
+	padding-right: 10px;	
+}
+
+.nav__link__clock-o:before{
+	font-family: "FontAwesome";
+	content: "\f017";
+	padding-right: 10px;	
+}
