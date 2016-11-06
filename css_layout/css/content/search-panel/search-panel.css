@@ -1,23 +1,17 @@
-/*.search-panel{
-	height: 120px;
-	display: flex;
-	flex-direction: column;
-}*/
-
-.search-panel__name{
-	text-transform: capitalize;
+.search-panel__tittle{
 	height: 70px;
 	background-color: #eef1f7;
-	color: #444c63;
 	border-bottom: 1px #dadfea solid;
 	flex-shrink: 0;
-	font-family: "Proxima";
 }
 
-.search-panel__name__a{
+.tittle__a{
+	text-transform: capitalize;
 	font-size: 20px;
 	margin: 24px 23px;
 	display: inline-block;
+	font-family: "Proxima";
+	color: #444c63;
 }
 
 .search-panel__bar{
@@ -31,7 +25,7 @@
 	flex-shrink: 0;
 }
 
-.search-panel__bar__nav{
+.bar__group{
 	width: 80%;
 	display: flex;
 	flex-direction: row;
@@ -39,11 +33,11 @@
 	justify-content: flex-start;
 }
 
-.search-panel_nav__item{
+.group__item{
 	margin: 13px 5px 0 0;
 }
 
-.search-panel__link{
+.group__link{
 	text-transform: capitalize;
 	padding: 3px 15px;
 	border-radius: 20px;
@@ -54,24 +48,19 @@
     font-weight: 500;
 }
 
-.search-panel__link:hover{
+.group__link:hover{
 	color: #fff;
 	background-color: #97b3ce;
 }
 
-.search-panel_nav__item{
-	justify-content: flex-start;
-	list-style-type: none;
-}
-
-.search-panel__bar__search{
+.bar__search{
 	display: flex;
 	justify-content: flex-end;
 	width: 20%;
 	margin: 9px 20px 0 0;
 }
 
-.bar__search__input{
+.search__input{
 	height: 26px;
 	width: 100%;
 	border-radius: 16px;

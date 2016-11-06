@@ -19,7 +19,7 @@
 	font-size: 14px;
 }
 
-.pcat__link__pink:before{
+.pcat__link--pink:before{
 	font-family: "FontAwesome";
 	content: "\f111";
 	font-size: 8px;
@@ -28,7 +28,7 @@
 	padding-right: 15px;
 }
 
-.pcat__link__orange:before{
+.pcat__link--orange:before{
 	font-family: "FontAwesome";
 	content: "\f111";
 	font-size: 8px;
@@ -37,7 +37,7 @@
 	padding-right: 15px;
 }
 
-.pcat__link__blue:before{
+.pcat__link--blue:before{
 	font-family: "FontAwesome";
 	content: "\f111";
 	font-size: 8px;
@@ -46,7 +46,7 @@
 	padding-right: 15px;
 }
 
-.pcat__link__purple:before{
+.pcat__link--purple:before{
 	font-family: "FontAwesome";
 	content: "\f111";
 	font-size: 8px;

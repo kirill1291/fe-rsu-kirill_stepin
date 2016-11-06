@@ -6,24 +6,24 @@
 	color:#6f7d95;
 }
 
-.history__info{
+.item__info{
 	padding: 0 10px;
 	font-family: "Proxima";
 	font-size: 12px;
 }
 
-.history__item{
+.history-list__item{
 	display: flex;
 }
 
-.history__item:before{
+.history-list__item:before{
 	color: #78829d;
 	font-family: "FontAwesome";
 	content: "\f017";
 	padding: 15px 0 0 15px;	
 }
 
-.history__marked{
+.history__item--marked{
 	color: #97b3ce;
 	text-transform: capitalize;
 }

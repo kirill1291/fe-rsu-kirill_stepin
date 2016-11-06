@@ -20,37 +20,37 @@
 	color: #fff;
 }
 
-.nav__link__book:before{
+.nav__link--book:before{
 	font-family: "FontAwesome";
 	content: "\f02d";
 	padding-right: 10px;
 }
 
-.nav__link__globe:before{
+.nav__link--globe:before{
 	font-family: "FontAwesome";
 	content: "\f0ac";
 	padding-right: 10px;	
 }
 
-.nav__link__shopping-cart:before{
+.nav__link--shopping-cart:before{
 	font-family: "FontAwesome";
 	content: "\f07a";
 	padding-right: 10px;	
 }
 
-.nav__link__star:before{
+.nav__link--star:before{
 	font-family: "FontAwesome";
 	content: "\f005";
 	padding-right: 10px;	
 }
 
-.nav__link__th-list:before{
+.nav__link--th-list:before{
 	font-family: "FontAwesome";
 	content: "\f00b";
 	padding-right: 10px;	
 }
 
-.nav__link__clock-o:before{
+.nav__link--clock-o:before{
 	font-family: "FontAwesome";
 	content: "\f017";
 	padding-right: 10px;	
